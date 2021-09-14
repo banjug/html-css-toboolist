@@ -47,3 +47,36 @@ main {
     margin: 0 auto;
     background-color: white;
 }
+
+/* sezione pulsanti  */
+
+.buttons {
+
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    border-bottom: solid 5px #f6f8f9;
+    padding-left: 50px;
+}
+
+.buttons button {
+    padding: 3px;
+    border-radius: 6px;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.buttonBlue {
+    background-color: #47adf1;
+    color: white;
+    border: none;
+}
+
+.buttonWhite {
+    color: #c5cbd0;
+    border: solid 1px #c5cbd0;
+    background-color: white;
+}
