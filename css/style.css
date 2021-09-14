@@ -38,13 +38,13 @@ header {
 
 main {
     background-color: #f6f8f9;
-    height: 1000px;
+    height: 1200px;
     padding-top: 60px;
 }
 
 .container {
     width: 70%;
-    height: 500px;
+    height: 900px;
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
@@ -87,7 +87,7 @@ main {
 /* sezione task */
 
 .taskContainer {
-    padding: 20px 50px;
+    padding: 30px 50px;
 }
 
 .taskSection {
@@ -96,9 +96,22 @@ main {
     font-weight: 900;
 }
 
+.taskRow {
+    margin: 20px 0;
+}
+
 .checkmark {
     border: solid 2px green;
     color: green;
+    border-radius: 50%;
+    font-weight: 900;
+    padding: 1px 4px;
+    margin-right: 5px;
+}
+
+.cross {
+    border: solid 2px red;
+    color: red;
     border-radius: 50%;
     font-weight: 900;
     padding: 1px 4px;
@@ -126,6 +139,26 @@ main {
     color: white;
 }
 
-.editorial{
+.editorialBadge{
     background-color: #47adf1;
+}
+
+.q1GoalsBadge {
+    background-color: #9c72e4;
+}
+
+.recruitingBadge {
+    background-color: #64c0a8;
+}
+
+.mobileBadge {
+    background-color: #f29e33;
+}
+
+.websiteBadge {
+    background-color: #d863a0;
+}
+
+.salesBadge {
+    background-color: #b0c926;
 }
