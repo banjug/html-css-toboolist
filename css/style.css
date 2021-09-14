@@ -1,4 +1,8 @@
+/* google fonts  */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* regole generali */
 
 * {
     box-sizing: border-box;
@@ -6,6 +10,8 @@
     padding: 0;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
+
+/* sezione header logo  */
 
 header {
     height: 100px;
@@ -25,7 +31,18 @@ header {
     margin-left: 10px;
 }
 
+/* /header  */
+
+/* corpo principale */
+
 main {
     background-color: #f6f8f9;
     height: 2000px;
+}
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: red;
 }
