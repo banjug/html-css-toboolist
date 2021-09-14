@@ -24,6 +24,7 @@ header {
 }
 
 .tipogramma {
+    display: inline-block;
     font-size: 40px;
     font-weight: 900;
     line-height: 100px;
@@ -42,10 +43,11 @@ main {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     height: 500px;
     margin: 0 auto;
     background-color: white;
+    border-radius: 10px;
 }
 
 /* sezione pulsanti  */
@@ -67,6 +69,7 @@ main {
     width: 100px;
     margin-right: 10px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .buttonBlue {
@@ -79,4 +82,50 @@ main {
     color: #c5cbd0;
     border: solid 1px #c5cbd0;
     background-color: white;
+}
+
+/* sezione task */
+
+.taskContainer {
+    padding: 20px 50px;
+}
+
+.taskSection {
+    color: #444851;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.checkmark {
+    border: solid 2px green;
+    color: green;
+    border-radius: 50%;
+    font-weight: 900;
+    padding: 1px 4px;
+    margin-right: 5px;
+}
+
+.taskName {
+    color: #444851;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.taskBadge {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.editorial{
+    background-color: #47adf1;
 }
